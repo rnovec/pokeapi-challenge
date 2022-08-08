@@ -25,7 +25,6 @@ env_file = (
     else None
 )
 env.read_env(env_file)
-print(env_file)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
