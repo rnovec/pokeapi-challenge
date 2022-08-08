@@ -26,6 +26,7 @@ LOCAL_APPS = [
     "apps.trainers",
     "apps.teams",
     "apps.pokemons",
+    "apps.api",
 ]
 
 INSTALLED_APPS = BEFORE_DJANGO_APPS + DJANGO_APPS + THIRD_PART_APPS + LOCAL_APPS
