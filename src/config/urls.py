@@ -25,8 +25,8 @@ admin.site.site_url = "/api/v1/"
 
 urlpatterns = [
     path("accounts/", include("rest_framework.urls", namespace="rest_framework")),
-    # path("api/", include("apps.api.urls")),
-    path("", admin.site.urls),
+    path("api/", include("apps.api.urls")),
+    path("admin/", admin.site.urls),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 
